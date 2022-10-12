@@ -2,7 +2,7 @@ A Quiz Web application built using JavaScript ♨️🛠️
 
 Application Name : Quiz-Ace
 
-Live Link :
+Live Link : https://resonant-pony-697e95.netlify.app/
 
 ⚙️ Features & Technology Used:
 
