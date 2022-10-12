@@ -36,6 +36,7 @@ const App = () => {
             fetch(
               `https://openapi.programming-hero.com/api/quiz/${params.quizId}`
             ),
+          errorElement: <NotFound />,
         },
       ],
     },

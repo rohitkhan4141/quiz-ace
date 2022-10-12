@@ -10,7 +10,7 @@ const QuizTopic = ({ quizTopic }) => {
     <div className='quiz-topic'>
       <img src={logo} alt='' />
       <div className='quiz-topic-container'>
-        <p>{name}</p>
+        <p>Quiz On {name}</p>
         <p>Total Question: {total}</p>
         <button className='button'>
           <Link to={`/quiz/${id}`}>
