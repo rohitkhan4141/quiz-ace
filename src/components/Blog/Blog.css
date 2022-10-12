@@ -1,0 +1,9 @@
+.blog {
+  padding-top: 100px;
+  width: 60%;
+  margin: 0 auto;
+}
+.blog h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}

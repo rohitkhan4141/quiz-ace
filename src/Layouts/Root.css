@@ -1,0 +1,42 @@
+.layout {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 700px) {
+  .header {
+    flex-direction: column-reverse;
+    gap: 50px;
+    text-align: center;
+  }
+  .quiz-topics {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .quiz-topics-container {
+    width: 100%;
+  }
+  .quiz {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .blog {
+    width: 85%;
+  }
+  .header h1 {
+    font-size: 42px;
+    padding-left: 40px;
+  }
+  .title-color {
+    font-size: 44px;
+  }
+  .quiz {
+    width: 80%;
+  }
+  .option {
+    margin: 10px 0;
+    padding: 15px;
+  }
+}

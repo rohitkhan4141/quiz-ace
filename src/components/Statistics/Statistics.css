@@ -1,0 +1,17 @@
+.statistics {
+  padding-top: 100px;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+  .statistics {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .statistics {
+    width: 100%;
+  }
+}
